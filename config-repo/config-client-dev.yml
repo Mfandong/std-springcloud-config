@@ -1,0 +1,10 @@
+server:
+  port: 13000
+spring:
+  application:
+    name: server-config-client
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
