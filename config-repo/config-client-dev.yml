@@ -15,4 +15,4 @@ management:
         include: refresh
        
 info:
-  profile: dev-server-9
+  profile: dev-server-0
