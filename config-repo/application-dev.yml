@@ -1,0 +1,14 @@
+server:
+  port: 8002
+eureka:
+  instance:
+    instance-id: config-client
+    prefer-ip-address: true
+
+  client:
+    service-url:
+      defaultZone: http://localhost:3000/eureka
+#      defaultZone: http://eureka3000.com:3000/eureka,http://eureka3002.com:3002/eureka,http://eureka3001.com:3001/eureka
+spring:
+  application:
+    name: config-client
