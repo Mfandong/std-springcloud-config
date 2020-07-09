@@ -15,4 +15,4 @@ spring:
     
     
 std:
-  cloud: hello-spring-cloud-config11
+  cloud: hello-spring-cloud-config22
