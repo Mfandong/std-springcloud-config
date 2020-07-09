@@ -12,3 +12,7 @@ eureka:
 spring:
   application:
     name: spring-cloud-config-client
+    
+    
+std:
+  cloud: hello-spring-cloud-config
